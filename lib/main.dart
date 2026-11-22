@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:movies/Screens/home_screen.dart';
-import 'package:movies/Screens/movie_details.dart';
+import 'package:movies/Screens/profile.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       home: HomeScreen(),
       routes: {
         HomeScreen.routeName: (context) => HomeScreen(),
-        MovieDetails.routeName: (context) => MovieDetails(),
+        Profile.routeName: (context) => Profile(),
       },
     );
   }
